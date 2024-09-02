@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 
-//
-export default function Cards() {
+//" rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-white hover:text-black"
+export default function CardsGames() {
   return (
     <>
     
@@ -11,22 +11,23 @@ export default function Cards() {
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-2xl group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-96 w-72 ">
-                <Image width={288} height={384} src="/Discord card.png" alt=""/>
+                <Image width={288} height={384} src="/Block.png" alt=""/>
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
               <div className=" absolute inset-0 flex translate-y-[60%]  flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                <h1 className="font-dmserif text-3xl font-bold text-white">
-                  Discord
+                <h1 className="  mb-32 font-dmserif text-3xl font-bold text-white">
+                 Lançamento Futuro
                 </h1>
                 <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  Entre no nosso servidor do discord agora, e fique por cima de
-                  todos os assuntos de Mary.
+                  Não Disponivel
                 </p>
-                <button className=" rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-white hover:text-black">
-                  <a target="_blank" href="https://discord.gg/MAJBHKXAHH">
+                <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-white hover:text-black active:shadow-[0px_0px_20px_10px_#fff]">
+          
                     See More{" "}
-                  </a>
+             
+             
                 </button>
+               
               </div>
             </div>
             <div className=" rounded-2xl group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
@@ -54,21 +55,21 @@ export default function Cards() {
             </div>
             <div className=" rounded-2xl group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-96 w-72">
-                <Image width={288} height={384} src="/Youtube card.png" alt="" />
+                <Image width={288} height={384} src="/Block.png" alt="" />
               </div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
               <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                <h1 className="font-dmserif text-3xl font-bold text-white">
-                  Youtube
+                <h1 className="mb-32 font-dmserif text-3xl font-bold text-white">
+                
+                  Lançamento Futuro
                 </h1>
                 <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  Se inscreva no nosso canal do youtube para receber todos os
-                  videos sober Mary.
+                  Não Disponivel
                 </p>
-                <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-white hover:text-black">
-                  <a target="_blank" href="https://www.youtube.com/@pinstergms">
+                <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-white hover:text-black active:shadow-[0px_0px_20px_10px_#fff]">
+    
                     See More{" "}
-                  </a>
+               
                 </button>
               </div>
             </div>
