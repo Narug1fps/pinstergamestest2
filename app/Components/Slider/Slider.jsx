@@ -50,7 +50,7 @@ const Slider = () => {
                        <div className=" absolute flex top-3/4  ">
 					   <button className="  text-center z-10 bg-red-600 md:w-48 md:h-12 w-24 h-8   rounded-full  md:text-2xl md:text-xl text-md bold text-white hover:bg-white hover:text-red-600 duration-300 ">
 						<Link target="_blanck" href="https://www.youtube.com/watch?v=lgipOfqR410" className="hover:text-red-600 duration-300">
-                        Watch Mary trailer
+                        Mary trailer
                     </Link>
 						</button>
 						</div>
